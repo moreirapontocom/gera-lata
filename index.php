@@ -9,7 +9,7 @@
 
 	<style type="text/css">
 		@font-face {font-family: "Calibri";src: url("calibri.ttf") format("truetype");}
-		body {margin: 0;padding: 0;height: auto;width: 100%;overflow: auto;background-color: #FFF;background-image: url(wallpaper.jpg);background-repeat: no-repeat;background-position: center center;font-family: Calibri, Arial, Helvetica, sans-serif;}
+		body {margin: 0;padding: 0;height: auto;width: 100%;overflow: auto;background-color: #FFF;background-image: url(wallpaper.jpg);background-repeat: repeat;background-position: center center;font-family: Calibri, Arial, Helvetica, sans-serif;}
 		#container {background-image: url(container-bg.png);background-repeat: repeat;padding: 10px;height: auto;width: auto;overflow: hidden;position: fixed;top: 50%;left: 50%;margin-top: -224px;margin-left: -382px;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;box-shadow: #000 1px 1px 10px;}
 			h1 {font-size: 30px;font-weight: bold;margin-bottom: 0;}
 			h2 {font-size: 15px;font-weight: normal;color: #333;margin-top: 10px;margin-bottom: 30px;}
@@ -58,7 +58,7 @@
 			<br /><br />
 			
 			<!-- AddThis Button BEGIN -->
-			<!--
+			<!---->
 			<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
 				<a class="addthis_button_preferred_1"></a>
 				<a class="addthis_button_preferred_2"></a>
@@ -67,10 +67,24 @@
 			</div>
 			<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=moreirapontocom"></script>
-			-->
+			<!---->
 			<!-- AddThis Button END -->
 
 		</div><!-- end #howtosave -->
 	</div><!-- end #container -->
 </body>
 </html>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21832901-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
