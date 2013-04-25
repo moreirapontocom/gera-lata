@@ -35,7 +35,7 @@
 		<h1>O que é melhor para você?</h1>
 		<h2>Crie uma lata personalizada para compartilhar no seu Facebook e dos seus amigos!</h2>
 		
-		<form method="post" action="cocacola.php" target="can_text" onsubmit="return validate()">
+		<form method="post" action="cocacola.php" onsubmit="return validate()">
 			<input type="text" id="name" name="name" value="" placeholder="O que é melhor para você?" maxlength="10" /> 
 			<button type="submit" id="btn_submit" onclick="generate()">Criar lata</button>
 		</form>

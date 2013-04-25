@@ -54,9 +54,12 @@ $put_text_y = $y_finalpos;
 
 // Write the text
 imagettftext($image, $font_size, 0, $put_text_x,  $put_text_y, $font_color, $font_file, $text);
-header('Content-type: '.$mime_type);
-imagepng($image);
+//header('Content-type: '.$mime_type);
+$novo_nome = substr(md5(date("Y-m-d H-i-s")),0,5);
+imagepng($image,'img/imagem_'.$novo_nome.'.png');
 imagedestroy($image);
+//header('Location:img/imagem_'.$novo_nome.'.png');
+echo '<img src="http://lucasmoreira.com.br/gera-lata/img/imagem_'.$novo_nome.'.png" height="226" width="404" />';
 exit;
 
 /*
