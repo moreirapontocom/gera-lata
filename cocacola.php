@@ -12,7 +12,7 @@ if ( empty($text) )
 	fatal_error('Error: Text not properly formatted.');
 
 // customizable variables
-$font_file 		= 'ariblk.ttf';
+$font_file 		= '/usr/share/fonts/truetype/msttcorefonts/ariblk.ttf';
 $font_size  	= 30; // font size in pts
 $font_color 	= '#EBEBEC';
 $image_file 	= 'cocacola.png';
